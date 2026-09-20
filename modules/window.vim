@@ -2,10 +2,10 @@
 " Window Keymaps (<leader>w)
 " ========================================
 
-let g:WhichKeyDesc_split_below = "<leader>- Split Window Below"
+let g:WhichKeyDesc_split_below = "<leader>wh Split Window Below"
 nmap <leader>wh <c-w>s
 
-let g:WhichKeyDesc_split_right = "<leader>| Split Window Right"
+let g:WhichKeyDesc_split_right = "<leader>wv Split Window Right"
 nmap <leader>wv <c-w>v
 
 let g:WhichKeyDesc_window_delete = "<leader>wd Delete Window"
