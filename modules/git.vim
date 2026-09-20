@@ -3,18 +3,10 @@
 " ========================================
 
 let g:WhichKeyDesc_git_ui = "<leader>gg GitUi (Root Dir)"
-if exists('g:loaded_lazygit')
-    nmap <leader>gg <Action>(Lazygit.Toggle)
-else
-    nmap <leader>gg <Action>(ActivateCommitToolWindow)
-endif
+nmap <leader>gg <Action>(ActivateCommitToolWindow)
 
 let g:WhichKeyDesc_git_ui_cwd = "<leader>gG GitUi (cwd)"
-if exists('g:loaded_lazygit')
-    nmap <leader>gG <Action>(Lazygit.ToggleCurrentDir)
-else
-    nmap <leader>gG <Action>(ActivateCommitToolWindow)
-endif
+nmap <leader>gG <Action>(ActivateCommitToolWindow)
 
 let g:WhichKeyDesc_git_blame = "<leader>gb Git Blame Line"
 nmap <leader>gb <Action>(Annotate)
