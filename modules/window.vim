@@ -3,10 +3,10 @@
 " ========================================
 
 let g:WhichKeyDesc_split_below = "<leader>- Split Window Below"
-nmap <leader>- <c-w>s
+nmap <leader>h <c-w>s
 
 let g:WhichKeyDesc_split_right = "<leader>| Split Window Right"
-nmap <leader><bar> <c-w>v
+nmap <leader>v <c-w>v
 
 let g:WhichKeyDesc_window_delete = "<leader>wd Delete Window"
 nmap <leader>wd <Action>(CloseContent)
